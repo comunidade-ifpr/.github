@@ -17,6 +17,7 @@ Use os materiais daqui como apoio para estudar, organizar informações, prepara
 Se você não é uma pessoa técnica, pode pensar nesta organização como uma caixa de ferramentas:
 
 - quer **consultar normas e leis** usadas em análises do IFPR? Comece pela [Base de Conhecimento](https://github.com/simplifica-if/base-conhecimento);
+- quer **extrair dados de processos do SEI** para uma pasta local? Veja o CLI [sei-cli](https://github.com/simplifica-if/sei-cli);
 - quer **pedir para uma IA analisar um PPC em Word**? Veja a skill [Análise de PPC](https://github.com/simplifica-if/skills/tree/main/analise-ppc);
 - quer **conferir um calendário acadêmico do IFPR** em planilha ou PDF? Veja a skill [Verificar Calendário](https://github.com/simplifica-if/skills/tree/main/verificar-calendario);
 - quer **criar materiais com a identidade visual do IFPR**? Veja a skill [IFPR Design](https://github.com/simplifica-if/skills/tree/main/ifpr-design).
@@ -33,6 +34,29 @@ Como usar com IA:
 2. Copie o prompt pronto da seção "Como usar".
 3. Cole no ChatGPT, Claude, Codex, Cursor ou outra ferramenta capaz de acessar links.
 4. Faça perguntas como: "Quais normas tratam de PPC de cursos técnicos?" ou "O que a base traz sobre adaptação curricular?"
+
+### [sei-cli](https://github.com/simplifica-if/sei-cli)
+
+CLI em Bun para extrair e inspecionar dados de processos do SEI em artefatos locais.
+
+O que ele faz:
+
+- acessa o SEI com Playwright e baixa o ZIP completo de um processo;
+- lê um ZIP ou diretório local já extraído;
+- gera uma pasta de execução com `processo.json`, documentos, ZIP original e logs;
+- permite consultar localmente a última atualização, os últimos documentos e o histórico extraído.
+
+Quando usar:
+
+- para guardar uma fotografia local rastreável de um processo;
+- para preparar dados do SEI para análise posterior;
+- para depurar extrações a partir de ZIPs ou diretórios locais.
+
+Exemplo:
+
+```bash
+bun run extrair processo 23411.020211/2019-41
+```
 
 ### [skills](https://github.com/simplifica-if/skills)
 
@@ -115,4 +139,3 @@ Quando usar:
 - ao gerar relatórios;
 - ao criar páginas ou protótipos;
 - ao revisar materiais para manter aparência consistente com a identidade visual institucional.
-
