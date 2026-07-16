@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">Comunidade IFPR</title>
+  <desc id="description">Cinco pessoas conectadas em rede dentro de um círculo.</desc>
+
+  <style>
+    :root {
+      --background: #fffaf2;
+      --green-dark: #006b4f;
+      --green: #258b46;
+      --green-light: #83ad3f;
+      --red: #ed3f35;
+    }
+
+    .network-line {
+      fill: none;
+      stroke: var(--green-dark);
+      stroke-width: 22;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .node {
+      fill: var(--green-dark);
+    }
+
+    .person .head,
+    .person .body {
+      fill: var(--person-color);
+    }
+  </style>
+
+  <!-- Fundo: remova este retângulo para deixar o SVG transparente. -->
+  <g id="background">
+    <rect width="1024" height="1024" rx="128" fill="var(--background)"/>
+  </g>
+
+  <!-- Estrutura circular da comunidade. -->
+  <g id="community-circle">
+    <circle cx="512" cy="512" r="382" fill="none" stroke="var(--green-dark)" stroke-width="24"/>
+  </g>
+
+  <!-- Rede posicionada atrás das pessoas. -->
+  <g id="connections">
+    <path class="network-line" d="M457 330 L321 475 M567 330 L703 475 M730 495 L690 760 M600 780 L424 780 M334 760 L294 495"/>
+    <path class="network-line" d="M512 552 L512 330 M512 552 L703 490 M512 552 L600 760 M512 552 L424 760 M512 552 L321 490"/>
+  </g>
+
+  <!-- O nó central marca o ponto de encontro sem adicionar pontos soltos à rede. -->
+  <g id="network-center">
+    <circle class="node" cx="512" cy="552" r="38"/>
+  </g>
+
+  <!-- Cada pessoa é um grupo independente para facilitar edição e reposicionamento. -->
+  <g id="people">
+    <g id="person-top" class="person" style="--person-color: var(--green-dark)" transform="translate(512 270)">
+      <circle class="head" cx="0" cy="-60" r="50"/>
+      <path class="body" d="M-82 80 C-82 24 -45 4 0 4 C45 4 82 24 82 80 C35 111 -35 111 -82 80 Z"/>
+    </g>
+
+    <g id="person-right" class="person" style="--person-color: var(--red)" transform="translate(758 435)">
+      <circle class="head" cx="0" cy="-60" r="50"/>
+      <path class="body" d="M-82 80 C-82 24 -45 4 0 4 C45 4 82 24 82 80 C35 111 -35 111 -82 80 Z"/>
+    </g>
+
+    <g id="person-bottom-right" class="person" style="--person-color: var(--green-dark)" transform="translate(646 720)">
+      <circle class="head" cx="0" cy="-60" r="50"/>
+      <path class="body" d="M-82 80 C-82 24 -45 4 0 4 C45 4 82 24 82 80 C35 111 -35 111 -82 80 Z"/>
+    </g>
+
+    <g id="person-bottom-left" class="person" style="--person-color: var(--green-light)" transform="translate(378 720)">
+      <circle class="head" cx="0" cy="-60" r="50"/>
+      <path class="body" d="M-82 80 C-82 24 -45 4 0 4 C45 4 82 24 82 80 C35 111 -35 111 -82 80 Z"/>
+    </g>
+
+    <g id="person-left" class="person" style="--person-color: var(--green)" transform="translate(266 435)">
+      <circle class="head" cx="0" cy="-60" r="50"/>
+      <path class="body" d="M-82 80 C-82 24 -45 4 0 4 C45 4 82 24 82 80 C35 111 -35 111 -82 80 Z"/>
+    </g>
+  </g>
+</svg>
