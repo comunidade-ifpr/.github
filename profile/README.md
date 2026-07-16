@@ -1,6 +1,6 @@
 # Comunidade IFPR
 
-A **Comunidade IFPR** mantém projetos abertos para apoiar atividades institucionais, acadêmicas e administrativas relacionadas ao Instituto Federal do Paraná. Os projetos organizam normas, orientações, automações e fluxos de trabalho com inteligência artificial.
+A **Comunidade IFPR** mantém projetos abertos para apoiar atividades institucionais, acadêmicas e administrativas relacionadas ao Instituto Federal do Paraná. Em sua maioria, esses projetos se apoiam no uso da inteligência artificial, sem se limitar a ela, e combinam normas, orientações, automações e outras ferramentas conforme a finalidade de cada iniciativa.
 
 ## Projetos
 
