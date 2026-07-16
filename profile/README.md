@@ -1,23 +1,30 @@
 # Comunidade IFPR
 
-Ferramentas abertas para ajudar pessoas que trabalham com rotinas do IFPR a encontrar normas, conferir documentos e usar inteligência artificial com mais segurança.
+A **Comunidade IFPR** mantém projetos abertos para apoiar atividades institucionais, acadêmicas e administrativas relacionadas ao Instituto Federal do Paraná. Os projetos organizam normas, orientações, automações e fluxos de trabalho com inteligência artificial.
 
-A **Comunidade IFPR** organiza materiais públicos, scripts e orientações práticas para apoiar tarefas institucionais, acadêmicas e administrativas. A ideia é simples: juntar conhecimento que costuma ficar espalhado e transformar parte dele em bases consultáveis, checklists e ferramentas que economizam tempo.
+## Projetos
 
-O projeto **Comunidade IFPR Skills** foi integrado ao projeto **Simplifica IF**. Agora as skills ficam no mesmo repositório da base, em `skills/`, usando os materiais locais de `base-conhecimento/` como fonte de consulta.
+### Simplifica IF
 
-> A Comunidade IFPR é uma iniciativa independente. Ela não é um canal oficial do Instituto Federal do Paraná (IFPR), não representa posicionamento institucional e não substitui sistemas, documentos, setores ou orientações oficiais.
+O [Simplifica IF](https://github.com/comunidade-ifpr/simplifica-if) reúne dois conjuntos de recursos:
 
-Use os materiais daqui como apoio para estudar, organizar informações, preparar análises e revisar documentos. Para decisões administrativas, jurídicas, pedagógicas ou acadêmicas, confirme sempre nas fontes oficiais e com os setores competentes.
+- `base-conhecimento/`: normas e materiais públicos usados como fontes de consulta;
+- `skills/`: instruções para executar análises e tarefas com apoio de inteligência artificial.
 
-## Por onde começar
+Entre as skills disponíveis estão:
 
-Se você não é uma pessoa técnica, pode pensar nesta organização como uma caixa de ferramentas:
+- [Análise de PPC](https://github.com/comunidade-ifpr/simplifica-if/tree/main/skills/analise-ppc);
+- [Verificação de Calendário Acadêmico](https://github.com/comunidade-ifpr/simplifica-if/tree/main/skills/verificar-calendario);
+- [Revisão de Processo PPC](https://github.com/comunidade-ifpr/simplifica-if/tree/main/skills/revisar-processo-ppc);
+- [Verificação de Fundamentação Normativa](https://github.com/comunidade-ifpr/simplifica-if/tree/main/skills/verificar-fundamentacao-normativa);
+- [Identidade Visual do IFPR](https://github.com/comunidade-ifpr/simplifica-if/tree/main/skills/ifpr-design).
 
-- quer **consultar normas e leis** usadas em análises do IFPR? Comece pelo [Simplifica IF](https://github.com/comunidade-ifpr/simplifica-if);
-- quer **extrair dados de processos do SEI** para uma pasta local? Veja o CLI [sei-cli](https://github.com/comunidade-ifpr/sei-cli);
-- quer **pedir para uma IA analisar um PPC em Word**? Veja a skill [Análise de PPC](https://github.com/comunidade-ifpr/simplifica-if/tree/main/skills/analise-ppc);
-- quer **conferir um calendário acadêmico do IFPR** em planilha ou PDF? Veja a skill [Verificar Calendário](https://github.com/comunidade-ifpr/simplifica-if/tree/main/skills/verificar-calendario);
-- quer **revisar um processo SEI de PPC**? Veja a skill [Revisar Processo PPC](https://github.com/comunidade-ifpr/simplifica-if/tree/main/skills/revisar-processo-ppc);
-- quer **conferir fundamentação normativa** em textos, pareceres ou documentos? Veja a skill [Verificar Fundamentação Normativa](https://github.com/comunidade-ifpr/simplifica-if/tree/main/skills/verificar-fundamentacao-normativa);
-- quer **criar materiais com a identidade visual do IFPR**? Veja a skill [IFPR Design](https://github.com/comunidade-ifpr/simplifica-if/tree/main/skills/ifpr-design).
+### sei-cli
+
+O [sei-cli](https://github.com/comunidade-ifpr/sei-cli) é uma ferramenta de linha de comando para extrair dados e documentos de processos do SEI para uma pasta local.
+
+## Independência
+
+A Comunidade IFPR é uma iniciativa independente. Não é um canal oficial do IFPR, não representa posicionamento institucional e não substitui sistemas, documentos, setores ou orientações oficiais.
+
+Os materiais devem ser usados como apoio. Decisões administrativas, jurídicas, pedagógicas ou acadêmicas devem ser confirmadas nas fontes oficiais e com os setores competentes.
