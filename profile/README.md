@@ -1,9 +1,5 @@
 # Comunidade IFPR
 
-<p align="center">
-  <img src="assets/comunidade-ifpr.svg" alt="Ícone da Comunidade IFPR: cinco pessoas conectadas em rede" width="180">
-</p>
-
 Ferramentas abertas para ajudar pessoas que trabalham com rotinas do IFPR a encontrar normas, conferir documentos e usar inteligência artificial com mais segurança.
 
 A **Comunidade IFPR** organiza materiais públicos, scripts e orientações práticas para apoiar tarefas institucionais, acadêmicas e administrativas. A ideia é simples: juntar conhecimento que costuma ficar espalhado e transformar parte dele em bases consultáveis, checklists e ferramentas que economizam tempo.
